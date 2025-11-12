@@ -4,6 +4,7 @@
 This project was developed during my Summer 2025 internship at Los Alamos National Laboratory (LANL). I worked in the EES-17 National Security Earth Science group where I helped develop an image-based grain partitioning and multi-phase numerical mesh generation Python package. This package is intended as a tool to produce numerical meshes for finite element modeling used in geomechanics and computational physics reaserach.
 
 - The open-source package is available at: https://github.com/cjohnson-LANL/grain2mesh-main
+- SoftwareX manuscript: https://www.sciencedirect.com/science/article/pii/S2352711025003930
 
 ### Motivation
 Exisiting image-based mesh generation software typically lack crucial preprocessing steps that ensure the generation of a high fideltiy mesh ready for use in computational mechanics solvers. Our package, grain2mesh, combines image processing and mesh generation into a single package that allows users to easily generate the meshes they need for modeling and simulation.
@@ -42,4 +43,4 @@ The Grain2Mesh software package runs a 6-step image processing and mesh generati
 
 ![Example Workflow](/Fig1.jpg)
 
-*Example workflow using micro-CT scan of Brea Sandstone*
+*Example workflow using micro-CT scan of Berea Sandstone*
